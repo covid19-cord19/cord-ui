@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Select = ({ defaultOptionText = 'Select', onChange, options = [], name, addDefault = false }) => {
+export const Select = ({ defaultOptionText = 'Select...', onChange, options = [], name, addDefault = true }) => {
     const [inputValue, setInputValue] = useState('')
 
     const onUpdate = (event) => {
@@ -14,7 +14,7 @@ export const Select = ({ defaultOptionText = 'Select', onChange, options = [], n
     return (
         <select name={name} value={inputValue} onChange={onUpdate}>
             {addDefault && <option key="default" value="">{defaultOptionText}</option>}
-            {options.map(option => <option key={option.id}>{option.content}</option>)}
+            {options.map(option => <option key={option.content}>{option.content}</option>)}
         </select>
     )
 }
