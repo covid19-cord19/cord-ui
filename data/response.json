@@ -1,0 +1,239 @@
+[
+    {
+        "_version_": 1669280055095721984,
+        "abstract": "The novel coronavirus infection or Coronavirus disease 2019) that emerged from Wuhan, Hubei province of China has spread to many countries worldwide. Efforts have been made to develop vaccines against human coronavirus (CoV) infections such as MERS and SARS in the past decades. However, to date, no licensed antiviral treatment or vaccine exists for MERS and SARS. Most of the efforts for developing CoV vaccines and drugs target the spike glycoprotein or S protein, the major inducer of neutralizing antibodies. Although a few candidates have shown efficacy in in vitro studies, not many have progressed to randomized animal or human trials, hence may have limited use to counter COVID-19 infection. This article highlights ongoing advances in designing vaccines and therapeutics to counter COVID-19 while also focusing on such experiences and advances as made with earlier SARS-and MERS-CoVs, which together could enable efforts to halt this emerging virus infection.",
+        "authors": [
+            "{middle=[], last=Dhama, suffix=, affiliation={laboratory=, institution=ICAR-Indian Veterinary Research Institute, location={country=India, settlement=Bareilly}}, first=Kuldeep, email=}",
+            "{middle=[], last=Sharun, suffix=, affiliation={laboratory=, institution=ICAR-Indian Veterinary Research Institute, location={country=India, settlement=Bareilly}}, first=Khan, email=}",
+            "{middle=[], last=Tiwari, suffix=, affiliation={}, first=Ruchi, email=}",
+            "{middle=[], last=Dadar, suffix=, affiliation={laboratory=Razi Vaccine and Serum Research Institute, Agricultural Research, Education and Extension Organization (AREEO), institution=, location={country=Iran, settlement=Karaj}}, first=Maryam, email=}",
+            "{middle=[], last=Singh Malik, suffix=, affiliation={laboratory=, institution=ICAR-Indian Veterinary Research Institute, location={country=India, settlement=Bareilly}}, first=Yashpal, email=}",
+            "{middle=[], last=Karam, suffix=, affiliation={}, first=Pal, email=}",
+            "{middle=[], last=Singh, suffix=, affiliation={laboratory=, institution=ICAR-Indian Veterinary Research Institute, location={country=India, settlement=Bareilly}}, first=, email=}",
+            "{middle=[], last=Chaicumpa, suffix=, affiliation={laboratory=Center of Research Excellence on Therapeutic Proteins and Antibody Engineering, institution=Mahidol University, location={country=Thailand, settlement=Bangkok}}, first=Wanpen, email=}",
+            "{middle=[], last=Upadhayay, suffix=, affiliation={}, first=Dayal, email=}",
+            "{middle=[], last=Chikitsa, suffix=, affiliation={}, first=Pashu, email=}",
+            "{middle=[], last=Vishwavidyalay, suffix=, affiliation={}, first=Vigyan, email=}",
+            "{middle=[], last=Go, suffix=, affiliation={}, first=Evum, email=}",
+            "{middle=[], last=Sansthan, suffix=, affiliation={}, first=Anusandhan, email=}"
+        ],
+        "body": "Researchers are searching for effective and suitable vaccine candidates and therapeutics for controlling the deadly COVID-19. There are no effective vaccines or specific antiviral drugs for COVID-19. Hence, we have to rely exclusively on enforcing strict preventive and control measures that minimize the risk of possible disease transmission. Results obtained from the recently conducted in vitro study against COVID-19 are promising since the drugs remdesivir and chloroquine were found to be highly effective in controlling the infection. Direct clinical trials can be conducted among the patients infected with COVID-19 since these drugs are being used for treating other diseases and have well-established safety profiles, making the further evaluation of these drugs much easier. S protein is considered a key viral antigen for developing CoV vaccines, as shown in several preclinical studies. Although research is in progress to improve prevention, treatment, and control of COVID-19, the documented clinical data on different therapeutic approaches for CoVs are scarce. Further research should be directed toward the study of SARS-CoV-2 in suitable animal models for analyzing replication, transmission, and pathogenesis.",
+        "id": "3015d59a4ae7dcbd0072c2d8cd7accf4d6dd679c",
+        "title": [
+            "COVID-19, an emerging coronavirus infection: advances and prospects in designing and developing vaccines, immunotherapeutics, and therapeutics"
+        ],
+        "score": 0.8149999976,
+        "url": [
+            "https://doi.org/10.1080/21645515.2020.1735227; https://www.ncbi.nlm.nih.gov/pubmed/32186952/"
+        ]
+    },
+    {
+        "_version_": 1669281875880837120,
+        "abstract": "",
+        "authors": [
+            "{middle=[], last=Dhama, suffix=, affiliation={}, first=Kuldeep, email=null}",
+            "{middle=[], last=Sharun, suffix=, affiliation={}, first=Khan, email=null}",
+            "{middle=[], last=Tiwari, suffix=, affiliation={}, first=Ruchi, email=null}",
+            "{middle=[], last=Dadar, suffix=, affiliation={}, first=Maryam, email=null}",
+            "{middle=[Singh], last=Malik, suffix=, affiliation={}, first=Yashpal, email=null}",
+            "{middle=[Pal], last=Singh, suffix=, affiliation={}, first=Karam, email=null}",
+            "{middle=[], last=Chaicumpa, suffix=, affiliation={}, first=Wanpen, email=null}"
+        ],
+        "body": "Researchers are searching for effective and suitable vaccine candidates and therapeutics for controlling the deadly COVID-19. There are no effective vaccines or specific antiviral drugs for COVID-19. Hence, we have to rely exclusively on enforcing strict preventive and control measures that minimize the risk of possible disease transmission. Results obtained from the recently conducted in vitro study against COVID-19 are promising since the drugs remdesivir and chloroquine were found to be highly effective in controlling the infection. Direct clinical trials can be conducted among the patients infected with COVID-19 since these drugs are being used for treating other diseases and have well-established safety profiles, making the further evaluation of these drugs much easier. S protein is considered a key viral antigen for developing CoV vaccines, as shown in several preclinical studies. Although research is in progress to improve prevention, treatment, and control of COVID-19, the documented clinical data on different therapeutic approaches for CoVs are scarce. Further research should be directed toward the study of SARS-CoV-2 in suitable animal models for analyzing replication, transmission, and pathogenesis.",
+        "id": "PMC7103671",
+        "title": [
+            "COVID-19, an emerging coronavirus infection: advances and prospects in designing and developing vaccines, immunotherapeutics, and therapeutics"
+        ],
+        "score": 0.8149999976,
+        "url": [
+            "https://doi.org/10.1080/21645515.2020.1735227; https://www.ncbi.nlm.nih.gov/pubmed/32186952/"
+        ]
+    },
+    {
+        "_version_": 1669279606288416768,
+        "abstract": "SARS-CoV-2 is a novel coronavirus that emerged in 2019 and is causing the COVID-19 pandemic. There is no current standard of care. Clinicians need to be mindful of the toxicity of a wide variety of possibly unfamiliar substances being tested or repurposed to treat COVID-19. The United States Food and Drug Administration (FDA) has provided emergency authorization for the use of chloroquine and hydroxychloroquine. These two medications may precipitate ventricular dysrhythmias, necessitating cardiac and electrolyte monitoring, and in severe cases, treatment with epinephrine and high-doses of diazepam. Recombinant protein therapeutics may cause serum sickness or immune complex deposition. Nucleic acid vaccines may introduce mutations into the human genome. ACE inhibitors and ibuprofen have been suggested to exacerbate the pathogenesis of COVID-19. Here, we review the use, mechanism of action, and toxicity of proposed COVID-19 therapeutics.",
+        "authors": [
+            "{middle=[A], last=Chary, suffix=, affiliation={}, first=Michael, email=}",
+            "{middle=[F], last=Barbuto, suffix=, affiliation={}, first=Alexander, email=}",
+            "{middle=[], last=Izadmehr, suffix=, affiliation={}, first=Sudeh, email=}",
+            "{middle=[D], last=Hayes, suffix=, affiliation={}, first=Bryan, email=}",
+            "{middle=[M], last=Burns, suffix=, affiliation={}, first=Michele, email=}"
+        ],
+        "body": "The unmet need for effective treatments for COVID-19 has spurred pharmaceutical companies to develop or repurpose therapeutics against SARS-CoV-2. Frontline providers may be unfamiliar with the usage of older therapeutics, such as chloroquine, or medicines typically used by subspecialists, like DNA vaccines, protease inhibitors, or convalescent plasma therapy. In conjunction with effective infection control policies, a combination of measured and reasoned repurposing of existing therapies, development and vetting of novel drugs, and guidance by medical toxicologists may reduce morbidity and mortality from COVID-19 and avoid cases where the cure is worse than the disease.",
+        "id": "7ff99de4d85558cfa209e25767e5b028728bab90",
+        "title": [
+            "COVID-19: Therapeutics and Their Toxicities"
+        ],
+        "score": 0.7179999948,
+        "url": [
+            "https://www.ncbi.nlm.nih.gov/pubmed/32356252/; https://doi.org/10.1007/s13181-020-00777-5"
+        ]
+    },
+    {
+        "_version_": 1669281941435711488,
+        "abstract": "",
+        "authors": [
+            "{middle=[A.], last=Chary, suffix=, affiliation={}, first=Michael, email=michael.chary@childrens.harvard.edu}",
+            "{middle=[F.], last=Barbuto, suffix=, affiliation={}, first=Alexander, email=null}",
+            "{middle=[], last=Izadmehr, suffix=, affiliation={}, first=Sudeh, email=null}",
+            "{middle=[D.], last=Hayes, suffix=, affiliation={}, first=Bryan, email=null}",
+            "{middle=[M.], last=Burns, suffix=, affiliation={}, first=Michele, email=null}"
+        ],
+        "body": "The unmet need for effective treatments for COVID-19 has spurred pharmaceutical companies to develop or repurpose therapeutics against SARS-CoV-2. Frontline providers may be unfamiliar with the usage of older therapeutics, such as chloroquine, or medicines typically used by subspecialists, like DNA vaccines, protease inhibitors, or convalescent plasma therapy. In conjunction with effective infection control policies, a combination of measured and reasoned repurposing of existing therapies, development and vetting of novel drugs, and guidance by medical toxicologists may reduce morbidity and mortality from COVID-19 and avoid cases where the cure is worse than the disease.",
+        "id": "PMC7192319",
+        "title": [
+            "COVID-19: Therapeutics and Their Toxicities"
+        ],
+        "score": 0.7179999948,
+        "url": [
+            "https://www.ncbi.nlm.nih.gov/pubmed/32356252/; https://doi.org/10.1007/s13181-020-00777-5"
+        ]
+    },
+    {
+        "_version_": 1669280854697836544,
+        "abstract": "Covid-19, a serious respiratory complications caused by SARS-CoV-2 has become one of the global threat to human healthcare system. The present study evaluated the possibility of plant originated approved 117 therapeutics against the main protease protein (MPP), RNA-dependent RNA polymerase (RdRp) and spike protein (S) of SARS-CoV-2 including drug surface analysis by using molecular docking through drug repurposing approaches. The molecular interaction study revealed that Rifampin (-16.3 kcal/mol) were topmost inhibitor of MPP where Azobechalcone were found most potent plant therapeutics for blocking the RdRp (-15.9 kcal /mol) and S (-14.4 kcal/mol) protein of SARS-CoV-2. After the comparative analysis of all docking results, Azobechalcone, Rifampin, Isolophirachalcone, Tetrandrine and Fangchinoline were exhibited as the most potential inhibitory plant compounds for targeting the key proteins of SARS-CoV-2. However, amino acid positions; H41, C145, and M165 of MPP played crucial roles for the drug surface interaction where F368, L371, L372, A375, W509, L514, Y515 were pivotal for RdRP. In addition, the drug interaction surface of S proteins also showed similar patterns with all of its maximum inhibitors. ADME analysis also strengthened the possibility of screened plant therapeutics as the potent drug candidates against SARS-C with the highest drug friendliness.",
+        "authors": [
+            "{middle=[], last=Alam, suffix=, affiliation={}, first=Sorwer, email=}",
+            "{middle=[], last=1&amp;, suffix=, affiliation={laboratory=, institution=Shahjalal University of Science and Technology, location={country=Bangladesh, settlement=Sylhet}}, first=Parvez, email=}",
+            "{middle=[Faizul], last=Azim, suffix=, affiliation={laboratory=, institution=Sylhet Agricultural University, location={country=Bangladesh, settlement=Sylhet}}, first=Kazi, email=}",
+            "{middle=[], last=Shukur Imran, suffix=, affiliation={laboratory=, institution=Sylhet Agricultural University, location={country=Bangladesh, settlement=Sylhet}}, first=Abdus, email=}",
+            "{middle=[], last=Raihan, suffix=, affiliation={laboratory=, institution=Shahjalal University of Science and Technology, location={country=Bangladesh, settlement=Sylhet}}, first=Topu, email=}",
+            "{middle=[], last=Begum, suffix=, affiliation={laboratory=, institution=Sylhet Agricultural University, location={country=Bangladesh, settlement=Sylhet}}, first=Aklima, email=}",
+            "{middle=[], last=Saiyara Shammi, suffix=, affiliation={laboratory=, institution=Sylhet Agricultural University, location={country=Bangladesh, settlement=Sylhet}}, first=Tasfia, email=}",
+            "{middle=[], last=Howlader, suffix=, affiliation={laboratory=, institution=University of Chittagong, location={country=Bangladesh, settlement=Chittagong}}, first=Sabbir, email=}",
+            "{middle=[Rumzum], last=Bhuiyan, suffix=, affiliation={laboratory=, institution=University of Chittagong, location={country=Bangladesh, settlement=Chittagong}}, first=Farhana, email=}",
+            "{middle=[], last=Hasan, suffix=, affiliation={laboratory=, institution=Sylhet Agricultural University, location={country=Bangladesh, settlement=Sylhet}}, first=Mahmudul, email=}"
+        ],
+        "body": "COVID-19 pandemic situation is going to be a worst condition throughout the world. Rapid detection and social distancing are being encouraged at this stage, but we need to search for immediate therapeutic options and effective vaccine candidates for battling this serious health crisis. Drug repurposing approaches could screened out the already approved drugs for reusing against any serious causative agents that are causing health complications. Plant metabolites based repurposed drug molecules could be a promising options against SARS-CoV-2. In the present study, five plantr based therapeutics such as Azobechalcone, Rifampin, Isolophirachalcone, Tetrandrine and Fangchinoline were suggested for potential inhibitors for the Main Protease protein, RNA dependent RNA polymerase and Spike protein of SARS-CoV-2 by using molecular docking based virtual screening study. The study initiated the window towards the thinking of plant based therapy against COVID-19, though extensive research and wet lab validation needs to make it usable for patient. ",
+        "id": "36d6e068e62b358929ccba0b849a51cbc4f2a736",
+        "title": [
+            "Virtual Screening of Plant Metabolites against Main protease, RNA-dependent RNA polymerase and Spike protein of SARS-CoV-2: Therapeutics option of COVID-19 Virtual Screening of Plant Metabolites against Main protease, RNA-dependent RNA polymerase and Spike protein of SARS-CoV-2: Therapeutics option of COVID-19"
+        ],
+        "score": 0.69599998,
+        "url": [
+            "https://arxiv.org/pdf/2005.11254v1.pdf"
+        ]
+    },
+    {
+        "_version_": 1669279886416543744,
+        "abstract": "The COVID-19 pandemic caused by SARS-CoV-2 infection is spreading at an alarming rate and has created an unprecedented health emergency around the globe. There is no effective vaccine or approved drug treatment against COVID-19 and other pathogenic coronaviruses. The development of antiviral agents is an urgent priority. Biochemical events critical to the coronavirus replication cycle provided a number of attractive targets for drug development. These include, spike protein for binding to host cell-surface receptors, proteolytic enzymes that are essential for processing polyproteins into mature viruses, and RNA-dependent RNA polymerase for RNA replication. There has been a lot of ground work for drug discovery and development against these targets. Also, highthroughput screening efforts have led to the identification of diverse lead structures, including natural product-derived molecules. This review highlights past and present drug discovery and medicinal-chemistry approaches against SARS-CoV, MERS-CoV and COVID-19 targets. The review hopes to stimulate further research and will be a useful guide to the development of effective therapies against COVID-19 and other pathogenic coronaviruses.",
+        "authors": [
+            "{middle=[K], last=Ghosh, suffix=, affiliation={}, first=Arun, email=}",
+            "{middle=[], last=Brindisi, suffix=, affiliation={}, first=Margherita, email=}",
+            "{middle=[], last=Shahabi, suffix=, affiliation={}, first=Dana, email=}",
+            "{middle=[E], last=Chapman, suffix=, affiliation={}, first=Mackenzie, email=}",
+            "{middle=[D], last=Mesecar, suffix=, affiliation={}, first=Andrew, email=}"
+        ],
+        "body": "The Covid-19 pandemic caused by highly transmissible SARS-CoV-2 has become a major public health crisis in the world, today. The pandemic is spreading at an alarming rate overwhelming existing healthcare system, and causing inordinate fatalities, particularly to elderly and immunocompromised patients around the globe. Covid-19 has induced huge economic damages with shortage and uncertainty worldwide. At present, there is no vaccine or approved antiviral medication available for the treatment of Covid-19. In our current pandemic situation, effective antiviral treatment could have made a significant impact on reducing morbidity and mortality. Antivirals could also be used as cheap prophylaxis. Thus, it is essential to proceed with very serious efforts for the development of effective, broad-spectrum antivirals against Covid-19. Past and present research efforts on the coronavirus replication cycle provided a number of significant biochemical targets for drug development. As the SARS-CoV-2 genome has over 80 % similarity to SARS-CoV, previous work on the development of antivirals against SARS is very beneficial and timely. Much ground work has been laid in terms of small-molecule lead generation, identification and limited medicinal chemistry optimization of lead structures. This review outlines various important protein targets for drug development and highlights principles and strategies for drug design along with a host of small-molecule lead structures. We hope that this review will stimulate drug design and discovery efforts toward the development of broad-spectrum antivirals against COVID-19 and future pathogenic coronaviruses. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57 ",
+        "id": "f0056fa68d3bc4253fc92c66e4151515b704463c",
+        "title": [
+            "Drug Development and Medicinal Chemistry Efforts toward SARS-Coronavirus and Covid-19 Therapeutics ChemMedChem"
+        ],
+        "score": 0.6769999862,
+        "url": [
+            "https://www.ncbi.nlm.nih.gov/pubmed/32324951/; https://doi.org/10.1002/cmdc.202000223"
+        ]
+    },
+    {
+        "_version_": 1669277170413862912,
+        "abstract": "The current pandemic of coronavirus disease 2019 caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has presented unprecedented challenges to the healthcare systems in almost every country around the world. Currently, there are no proven effective vaccines or therapeutic agents against the virus. Current clinical management includes infection prevention and control measures and supportive care including supplemental oxygen and mechanical ventilatory support. Evolving research and clinical data regarding the virologic SARS-CoV-2 suggest a potential list of repurposed drugs with appropriate pharmacological effects and therapeutic efficacies in treating COVID-19 patients. In this review, we will update and summarize the most common and plausible drugs for the treatment of COVID-19 patients. These drugs and therapeutic agents include antiviral agents (remdesivir, hydroxychloroquine, chloroquine, lopinavir, umifenovir, favipiravir, and oseltamivir), and supporting agents (Ascorbic acid, Azithromycin, Corticosteroids, Nitric oxide, IL-6 antagonists), among others. We hope that this review will provide useful and most updated therapeutic drugs to prevent, control, and treat COVID-19 patients until the approval of vaccines and specific drugs targeting SARS-CoV-2.",
+        "authors": [
+            "{middle=[], last=Wu, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Renyi, email=}",
+            "{middle=[], last=Wang, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Lujing, email=}",
+            "{middle=[Dina], last=Kuo, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Hsiao-Chen, email=}",
+            "{middle=[], last=Shannar, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Ahmad, email=}",
+            "{middle=[], last=Peter, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Rebecca, email=}",
+            "{middle=[], last=Pochung, suffix=, affiliation={}, first=&amp;, email=}",
+            "{middle=[], last=Chou, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Jordan, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Shanyi, email=}",
+            "{middle=[], last=Hudlikar, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Rasika, email=}",
+            "{middle=[], last=Liu, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Xia, email=}",
+            "{middle=[], last=Liu, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Zhigang, email=}",
+            "{middle=[J], last=Poiani, suffix=, affiliation={laboratory=, institution=Johnson University Hospital Somerset, location={country=USA, postCode=08876, region=NJ, settlement=Somerville}}, first=George, email=}",
+            "{middle=[], last=Amorosa, suffix=, affiliation={}, first=Louis, email=}",
+            "{middle=[], last=Brunetti, suffix=, affiliation={laboratory=, institution=Johnson University Hospital Somerset, location={country=USA, postCode=08876, region=NJ, settlement=Somerville}}, first=Luigi, email=}",
+            "{middle=[], last=Kong, suffix=, affiliation={laboratory=, institution=Rutgers University, location={country=USA, postCode=08854, region=NJ, settlement=Piscataway}}, first=Ah-Ng, email=}"
+        ],
+        "body": "Conclusion The COVID-19 pandemic represents the greatest global public health crisis in the past 100 years. Hopefully vaccines and or specific therapeutic drugs targeting SARS-CoV-2 will be made available in the next few months or years. With the speed and volume of basic and clinical COVID-19/ SARS-CoV-2 research to develop potential drugs and therapies for this disease, our hope will be on the horizon.",
+        "id": "624560cb35b61e7c2b38aa294d409a8c85644d4f",
+        "title": [
+            "An Update on Current Therapeutic Drugs Treating COVID-19"
+        ],
+        "score": 0.6510000229,
+        "url": [
+            "https://www.ncbi.nlm.nih.gov/pubmed/32395418/; https://doi.org/10.1007/s40495-020-00216-7"
+        ]
+    },
+    {
+        "_version_": 1669279561384198144,
+        "abstract": "The unexpected pandemic set off by the novel coronavirus 2019 (COVID-19) has caused severe panic among people worldwide. COVID-19 has created havoc, and scientists and physicians are urged to test the efficiency and safety of drugs used to treat this disease. In such a pandemic situation, various steps have been taken by the government to control and prevent the Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2). This pandemic situation has forced scientists to rework strategies to combat infectious diseases through drugs, treatment, and control measures. COVID-19 treatment requires both limiting viral multiplication and neutralizing tissue damage induced by an inappropriate immune reaction. Currently, various diagnostic kits to test for COVID-19 are available, and repurposing therapeutics for COVID-19 has shown to be clinically effective. As the global demand for diagnostics and therapeutics continues to rise, it is essential to rapidly develop various algorithms to successfully identify and contain the virus. This review discusses the updates on specimens/samples, recent efficient diagnostics, and therapeutic approaches to control the disease and repurposed drugs mainly focusing on chloroquine/hydroxychloroquine and convalescent plasma (CP). More research is required for further understanding of the influence of diagnostics and therapeutic approaches to develop vaccines and drugs for COVID-19.",
+        "authors": [
+            "{middle=[], last=Iyer, suffix=, affiliation={laboratory=, institution=Avinashilingam Institute for Home Science and Higher Education for Women, location={postCode=641-043, settlement=Coimbatore}}, first=Mahalaxmi, email=}",
+            "{middle=[], last=Jayaramayya, suffix=, affiliation={laboratory=, institution=Avinashilingam Institute for Home Science and Higher Education for Women, location={postCode=641-043, settlement=Coimbatore}}, first=Kaavya, email=}",
+            "{middle=[Devi], last=Subramaniam, suffix=, affiliation={}, first=Mohana, email=}",
+            "{middle=[Bin], last=Lee, suffix=, affiliation={laboratory=, institution=Konkuk University, location={country=Korea, postCode=05029, settlement=Seoul}}, first=Soo, email=}",
+            "{middle=[Abdal], last=Dayem, suffix=, affiliation={laboratory=, institution=Konkuk University, location={country=Korea, postCode=05029, settlement=Seoul}}, first=Ahmed, email=}",
+            "{middle=[], last=Cho, suffix=, affiliation={laboratory=, institution=Konkuk University, location={country=Korea, postCode=05029, settlement=Seoul}}, first=Ssang-Goo, email=}",
+            "{middle=[], last=Vellingiri, suffix=, affiliation={laboratory=Human Molecular Cytogenetics and Stem Cell Laboratory, institution=Bharathiar University, location={country=India, postCode=641-046, settlement=Coimbatore}}, first=Balachandar, email=}"
+        ],
+        "body": "COVID-19 is a global pandemic, and currently it has emerged as the most intense and petrifying viral infection to be handled by the human race. Many countries have taken precautionary measures against the virus, and government officials in all countries continue to make efforts to minimize human contact by facilitating countrywide shutdowns of public places. Several steps have been initiated to ensure the safety of the people, like social distancing and self-quarantine, which limits our social interactions. Since the long-term effects of COVID-19 remain unknown, we still need to figure out the exact mechanism of the virus for the preventive, diagnostic and therapeutic approaches to battle the situation. This will help to diagnose diseases at earlier stages, allowing medical intervention at this time. Early medical intervention will help to prevent the conditions altogether or at least ameliorate its prognosis. As the number of individuals infected with SARS-CoV-2 continues to rise globally, health-care systems become increasingly stressed. It is clear that the clinical laboratory plays a major role in this crisis, contributing to patient screening. As COVID-19 has triggered human casualties and a serious economic crisis posing a global threat, an understanding of the current scenario and developing a plan of action to contain the spread of the virus are urgently needed. Rapid diagnostics, vaccines, and therapeutics are important interventions for the management of the COVID-19 outbreak. It is essential to move forward with all the information necessary to be more prepared for a pandemic of its kind in the future. At present, scientists are working rigorously to find the solution to treat the SARS-CoV-2 infection at a rapid pace. Hence, more research is needed to adequately care for patients post recovery and to provide a framework of possible physical manifestations of the disease.",
+        "id": "587ee276b2cf25da22405e085734fbbc73c43a8d",
+        "title": [
+            "COVID-19: an update on diagnostic and therapeutic approaches"
+        ],
+        "score": 0.6090000272,
+        "url": [
+            "https://www.ncbi.nlm.nih.gov/pubmed/32336317/"
+        ]
+    },
+    {
+        "_version_": 1669277763670900736,
+        "abstract": "Seasonal influenza epidemics and influenza pandemics caused by influenza A virus (IAV) has resulted in millions of deaths in the world. The development of anti-IAV vaccines and therapeutics is urgently needed for prevention and treatment of IAV infection and for controlling future influenza pandemics. Hemagglutinin (HA) of IAV plays a critical role in viral binding, fusion and entry, and contains the major neutralizing epitopes. Therefore, HA is an attractive target for developing anti-IAV drugs and vaccines. Here we have reviewed the recent progress in study of conformational changes of HA during viral fusion process and development of HA-based antiviral therapeutics and vaccines.",
+        "authors": [
+            "{middle=[], last=Jiang, suffix=, affiliation={laboratory=, institution=New York Blood Center, location={country=USA, postCode=10065, region=NY, settlement=New York}}, first=Shibo, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={laboratory=, institution=Southern Medical University, location={country=China, postCode=510515, settlement=Guangzhou}}, first=Runming, email=}",
+            "{middle=[], last=Du, suffix=, affiliation={laboratory=, institution=New York Blood Center, location={country=USA, postCode=10065, region=NY, settlement=New York}}, first=Lanying, email=}",
+            "{middle=[], last=Liu, suffix=, affiliation={laboratory=, institution=Southern Medical University, location={country=China, postCode=510515, settlement=Guangzhou}}, first=Shuwen, email=}"
+        ],
+        "body": "DNA-HA, DNA vaccine coding HA protein; FP, fusion peptide; HA, hemagglutinin; HPAI, highly pathogenic avian influenza; IAV, influenza A virus; IRDS, infant respiratory distress syndrome; mAb, monoclonal antibody; MVA, modified vaccinia virus Ankara; M2, matrix protein 2; NA, neuraminidase; NDV, newcastle disease virus; NP, nucleoprotein; PIV5, parainfluenza virus type 5; RSV, respiratory syncytial virus; SARS-CoV, severe acute respiratory syndromeassociated coronavirus; S-OIV, swine-origin influenza A virus; VLP, enveloped virus-like particle; VSV, vesicular stomatitis virus",
+        "id": "33310fc6d99fa6bbf3aa6160168f3acba6a736d7",
+        "title": [
+            "REVIEW Roles of the hemagglutinin of influenza A virus in viral entry and development of antiviral therapeutics and vaccines"
+        ],
+        "score": 0.5820000172,
+        "url": [
+            "https://doi.org/10.1007/s13238-010-0054-6; https://www.ncbi.nlm.nih.gov/pubmed/21203946/; https://link.springer.com/content/pdf/10.1007%2Fs13238-010-0054-6.pdf"
+        ]
+    },
+    {
+        "_version_": 1669278981682102272,
+        "abstract": "A novel coronavirus, designated as SARS-CoV-2, first emerged in Wuhan City, Hubei 17 Province, China, in late December 2019. The rapidly increasing number of cases has 18 caused worldwide panic. In this review, we describe some currently applied 19 diagnostic approaches, as well as therapeutics and vaccines, to prevent, treat and 20 control further outbreaks of SARS-CoV-2 infection. 21 22",
+        "authors": [
+            "{middle=[], last=Zhang, suffix=, affiliation={laboratory=, institution=Zhejiang University City 6 College, location={country=China, settlement=Hangzhou}}, first=Naru, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={laboratory=, institution=Zhejiang University City 6 College, location={country=China, settlement=Hangzhou}}, first=Chaoqun, email=}",
+            "{middle=[], last=Hu, suffix=, affiliation={laboratory=, institution=Zhejiang University City 6 College, location={country=China, settlement=Hangzhou}}, first=Yue, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={}, first=Kangchen, email=}",
+            "{middle=[], last=Liang, suffix=, affiliation={laboratory=, institution=Zhejiang University City 6 College, location={country=China, settlement=Hangzhou}}, first=Jintian, email=}",
+            "{middle=[], last=Wang, suffix=, affiliation={laboratory=, institution=Zhejiang University City 6 College, location={country=China, settlement=Hangzhou}}, first=Lili, email=}",
+            "{middle=[], last=Du, suffix=, affiliation={laboratory=, institution=New York Blood Center, location={region=New York, country=USA}}, first=Lanying, email=}",
+            "{middle=[], last=Jiang, suffix=, affiliation={laboratory=, institution=New York Blood Center, location={region=New York, country=USA}}, first=Shibo, email=shibojiang@fudan.edu.cnsj}",
+            "{middle=[], last=Zhang, suffix=, affiliation={}, first=N, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={}, first=C, email=}",
+            "{middle=[], last=Hu, suffix=, affiliation={}, first=Y, email=}",
+            "{middle=[], last=Li, suffix=, affiliation={}, first=K, email=}",
+            "{middle=[], last=Liang, suffix=, affiliation={}, first=J, email=}",
+            "{middle=[], last=Wang, suffix=, affiliation={}, first=L, email=}",
+            "{middle=[], last=Du, suffix=, affiliation={}, first=L, email=}",
+            "{middle=[], last=Jiang, suffix=, affiliation={}, first=S, email=}"
+        ],
+        "body": "Another interesting strategy is to use convalescent plasma (CP) as treatment, but it 238 should be noted that CP should be collected within two weeks after recovery to ensure 239 a high neutralization antibody titer [50] . It was reported that SARS-CoV-2 isolated ",
+        "id": "5de6b4de529c8d5c4b015286f3f2ff85f521733f",
+        "title": [
+            "Journal Pre-proof Current development of COVID-19 diagnostics, vaccines and therapeutics Current development of COVID-19 diagnostics, vaccines and therapeutics 1 2"
+        ],
+        "score": 0.5109999776,
+        "url": [
+            "https://api.elsevier.com/content/article/pii/S1286457920300794; https://www.sciencedirect.com/science/article/pii/S1286457920300794?v=s5; https://www.ncbi.nlm.nih.gov/pubmed/32387332/; https://doi.org/10.1016/j.micinf.2020.05.001"
+        ]
+    }
+]
