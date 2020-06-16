@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Select } from './../select'
 import response from '../../data/response.json'
+import './search-box.scss'
 
 const getSubtasks = async (id) => {
     const response = await fetch(`/api/tasks/${id}`)
@@ -52,11 +53,11 @@ export const SearchBox = ({ tasks }) => {
 
     return (
         <>
-            <form method="POST" onSubmit={onSubmit}>
+            <form method="POST" onSubmit={onSubmit} className="search-box">
                 <Select options={tasks} onChange={onChange} defaultOptionText="Select a task..." name="task"/>
                 <Select options={subtasks} defaultOptionText="Select a subtask..." name="subtask" />
-                <input type="search" name="search" placeholder="Insert an specific search (optional)" />
-                <input type="submit" value="Search"/>
+                <input type="search" name="search" placeholder="Insert an specific search (optional)" className="search-box__input" />
+                <input type="submit" value="Search" className="search-box__button"/>
             </form>
             <section>{responses}</section>
         </>
