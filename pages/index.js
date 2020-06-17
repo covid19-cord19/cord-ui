@@ -24,11 +24,32 @@ const Home = () => (
     <style jsx global>{`
       html,
       body {
+        background: url("/iStock-695349930.jpg") no-repeat fixed;
+        background-size: cover;
         padding: 0;
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 16px;
+      }
+
+      main {
+        margin: auto;
+        max-width: 1024px;
+      }
+
+      .title {
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .card {
+        background: #2196F3;
+      }
+
+      .card__score {
+        background: #0D47A1;
+        color: #fff;
       }
 
       * {
