@@ -1,17 +1,32 @@
 import PropTypes from 'prop-types'
+import './card.scss'
 
-export const Card = ({title, summary, score = 100, urls = []}) => (
+const getUrls = (url) => {
+    const urls = url.split('; ')
+
+    if (urls.length > 0) {
+        return (
+            <ul>
+            {urls.map(url =>
+                <li key={url}><a href={url}>{url}</a></li>
+            )}
+            </ul>
+        )
+    }
+
+    return null
+}
+
+export const Card = ({title, summary, score = 100, urls = ''}) => (
     <div className="card">
-        <article>
+        <article className="card__summary">
             <h2 className="card__title">{title}</h2>
-            <p className="card__summary">{summary}</p>
-            {urls.length > 0 &&
-                <ul>
-                {urls.map(url => <li key={url}>{url}</li>)}
-                </ul>
-            }
+            <p>{summary}</p>
+            {getUrls(urls)}
         </article>
-        <div className="card__score">{Number.parseInt(score)}</div>
+        <div className="card__score">
+            <span>Score:</span> <span>{score.toFixed(2)}</span>
+        </div>
     </div>
 )
 
@@ -19,7 +34,7 @@ Card.propTypes = {
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     score: PropTypes.number,
-    urls: PropTypes.arrayOf(PropTypes.string)
+    urls: PropTypes.string,
 }
 
 export default Card

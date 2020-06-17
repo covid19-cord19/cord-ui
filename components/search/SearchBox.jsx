@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
+
 import { Select } from './../select'
+import { Card } from './../card'
 import response from '../../data/response.json'
+
 import './search-box.scss'
 
 const getSubtasks = async (id) => {
@@ -13,7 +16,7 @@ const getSubtasks = async (id) => {
 export const SearchBox = ({ tasks }) => {
     const [currentTaskIndex, setCurrentTaskIndex] = useState(0)
     const [subtasks, setSubtasks] = useState([])
-    const [responses, setResponses] = useState('')
+    const [responses, setResponses] = useState([])
 
     useEffect(() => {
         if (currentTaskIndex) {
@@ -40,12 +43,13 @@ export const SearchBox = ({ tasks }) => {
             // const data = await fetch('http://34.223.223.77:4004/search',
             //     {
             //         method: 'POST',
+            //         'Accept': 'application/json',
             //         body: { task: searchTerm }
             //     }
             // )
 
             // const response = await data.json()
-            setResponses(JSON.stringify(response))
+            setResponses(response)
         } catch (error) {
             console.log(error)
         }
@@ -59,7 +63,16 @@ export const SearchBox = ({ tasks }) => {
                 <input type="search" name="search" placeholder="Insert an specific search (optional)" className="search-box__input" />
                 <input type="submit" value="Search" className="search-box__button"/>
             </form>
-            <section>{responses}</section>
+            <section>
+                {responses.map(response =>
+                    <Card
+                        key={response.id}
+                        title={response.title[0]}
+                        summary={response.body}
+                        urls={response.url[0]}
+                        score={response.score}
+                    />)}
+            </section>
         </>
     )
 }
