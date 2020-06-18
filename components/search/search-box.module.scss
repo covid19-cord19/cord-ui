@@ -5,10 +5,10 @@ $animation-duration: .5s;
 
 .container {
     display: flex;
+    flex: 1 1 80%;
     flex-wrap: wrap;
     margin: auto;
     max-width: 1024px;
-    width: 80%;
 
 }
 
