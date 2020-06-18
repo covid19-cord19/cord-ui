@@ -17,7 +17,7 @@ const getUrls = (url) => {
     return null
 }
 
-export const Card = ({title, summary, score = 100, urls = ''}) => (
+export const Card = ({title, summary, score = 1, urls = ''}) => (
     <div className="card">
         <article className="card__summary">
             <h2 className="card__title">{title}</h2>
@@ -25,7 +25,7 @@ export const Card = ({title, summary, score = 100, urls = ''}) => (
             {getUrls(urls)}
         </article>
         <div className="card__score">
-            <span>Score:</span> <span>{score.toFixed(2)}</span>
+            <span>Accuracy: </span> <span>{Math.round(score.toFixed(2) * 100)}%</span>
         </div>
     </div>
 )

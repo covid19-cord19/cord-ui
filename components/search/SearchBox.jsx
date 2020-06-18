@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import { Select } from './../select'
 import { Card } from './../card'
-import response from '../../data/response.json'
+import { Loader } from './../loader'
 
 import './search-box.scss'
 
@@ -17,6 +17,7 @@ export const SearchBox = ({ tasks }) => {
     const [currentTaskIndex, setCurrentTaskIndex] = useState(0)
     const [subtasks, setSubtasks] = useState([])
     const [responses, setResponses] = useState([])
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
         if (currentTaskIndex) {
@@ -36,8 +37,9 @@ export const SearchBox = ({ tasks }) => {
     const onSubmit = async (evt) => {
         evt.preventDefault()
         const { task, subtask, search } = evt.target
-
         const searchTerm = `${task.selectedOptions[0].text} ${subtask.selectedOptions[0].text} ${search.value}`.trim()
+
+        setIsLoading(true)
 
         try {
             const data = await fetch('http://34.223.223.77:4004/search',
@@ -52,11 +54,24 @@ export const SearchBox = ({ tasks }) => {
 
             const response = await data.json()
 
+            setIsLoading(false)
             setResponses(response)
         } catch (error) {
             console.log(error)
         }
     }
+
+    const getCards = (data = []) =>
+        data.map(item =>
+            <Card
+                key={item.id}
+                title={item.title[0]}
+                summary={item.body}
+                urls={item.url[0]}
+                score={item.score}
+            />
+        )
+
 
     return (
         <>
@@ -67,14 +82,7 @@ export const SearchBox = ({ tasks }) => {
                 <input type="submit" value="Search" className="search-box__button"/>
             </form>
             <section>
-                {responses.map(response =>
-                    <Card
-                        key={response.id}
-                        title={response.title[0]}
-                        summary={response.body}
-                        urls={response.url[0]}
-                        score={response.score}
-                    />)}
+                {isLoading ? <Loader /> : getCards(responses)}
             </section>
         </>
     )
