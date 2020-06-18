@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import { Select } from './../select'
-import { Card } from './../card'
+import { CardsList } from './../card'
 import { Loader } from './../loader'
 import { searchURL } from './../../config'
 
@@ -62,18 +62,6 @@ export const SearchBox = ({ tasks }) => {
         }
     }
 
-    const getCards = (data = []) =>
-        data.map(item =>
-            <Card
-                key={item.id}
-                title={item.title[0]}
-                summary={item.body}
-                urls={item.url[0]}
-                score={item.score}
-            />
-        )
-
-
     return (
         <>
             <form method="POST" onSubmit={onSubmit} className={styles.container}>
@@ -89,7 +77,7 @@ export const SearchBox = ({ tasks }) => {
                 <input type="submit" value="Search" className={styles.button}/>
             </form>
             <section>
-                {isLoading ? <Loader /> : getCards(responses)}
+                {isLoading ? <Loader /> : <CardsList cards={responses} />}
             </section>
         </>
     )

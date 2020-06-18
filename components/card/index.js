@@ -1,5 +1,6 @@
 import Card from './Card'
+import CardsList from './CardsList'
 
-export { Card }
+export { Card, CardsList }
 
-export default { Card }
+export default CardsList
