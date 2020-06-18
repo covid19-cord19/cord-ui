@@ -1,18 +1,34 @@
+@import './variables';
+
 .card {
     border-radius: 8px;
     display: flex;
+    flex-direction: column;
+    font-size: 2rem;
     margin: 1.5rem auto;
 
+    @include medium-screen {
+        flex-direction: row;
+        font-size: 1rem;
+    }
 }
 
 .summary {
     padding: 0 40px 10px 20px;
-    text-align: justify;
+    overflow-wrap: break-word;
+
+    @include medium-screen {
+        text-align: justify;
+    }
 }
 
 .score {
     align-items: center;
     display: flex;
-    flex-direction: column;
-    padding: 40px 20px;
+    padding: 20px;
+
+    @include large-screen {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
 }

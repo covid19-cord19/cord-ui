@@ -25,7 +25,7 @@ export const Card = ({title, summary, score = 1, urls = ''}) => (
             {getUrls(urls)}
         </article>
         <div className={`card__score ${styles.score}`}>
-            <span>Accuracy: </span> <span>{Math.round(score.toFixed(2) * 100)}%</span>
+            <span>Accuracy:</span>&nbsp;<span> {Math.round(score.toFixed(2) * 100)}%</span>
         </div>
     </div>
 )
