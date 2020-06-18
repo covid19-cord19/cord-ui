@@ -44,7 +44,8 @@ const Home = () => (
       }
 
       .card {
-        background: #2196F3;
+        background: #fff;
+        box-shadow: 0 0 4px #999;
       }
 
       .card__score {

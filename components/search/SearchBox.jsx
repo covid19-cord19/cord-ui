@@ -40,15 +40,18 @@ export const SearchBox = ({ tasks }) => {
         const searchTerm = `${task.selectedOptions[0].text} ${subtask.selectedOptions[0].text} ${search.value}`.trim()
 
         try {
-            // const data = await fetch('http://34.223.223.77:4004/search',
-            //     {
-            //         method: 'POST',
-            //         'Accept': 'application/json',
-            //         body: { task: searchTerm }
-            //     }
-            // )
+            const data = await fetch('http://34.223.223.77:4004/search',
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ task: searchTerm }),
+                }
+            )
 
-            // const response = await data.json()
+            const response = await data.json()
+
             setResponses(response)
         } catch (error) {
             console.log(error)
