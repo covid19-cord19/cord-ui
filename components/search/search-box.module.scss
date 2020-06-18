@@ -1,7 +1,4 @@
-$input-height: 40px;
-$border-color: #cac6c6;
-$border-radius: 4px;
-$animation-duration: .5s;
+@import "./variables.scss";
 
 .container {
     display: flex;
@@ -19,26 +16,39 @@ $animation-duration: .5s;
     font-size: 1rem;
     height: $input-height;
     padding: 4px;
-    width: 80%;
+    width: 100%;
+
+    @include medium-screen {
+        width: 80%;
+    }
 }
 
 .button {
     appearance: none;
-    background-color: #fff;
+    background-color: #0984e3;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     font-size: 0.9rem;
     height: $input-height;
-    margin-left: auto;
-    width: 18%;
+    margin-top: 1.5rem;
     transition: $animation-duration;
+    width: 100%;
 
-    &:hover {
-        background-color: #0984e3;
-        border-color: #0768b3;
-        color: #fff;
-        transition: $animation-duration;
+    @include medium-screen {
+        background-color: #fff;
+        color: #000;
+        margin-left: auto;
+        margin-top: 0;
+        width: 18%;
+
+        &:hover {
+            background-color: #0984e3;
+            border-color: #0768b3;
+            color: #fff;
+            transition: $animation-duration;
+        }
     }
+
 }
