@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { Select } from './../select'
 import { Card } from './../card'
 import { Loader } from './../loader'
+import { searchURL } from './../../config'
 
 import styles from './search-box.module.scss'
 
@@ -42,7 +43,7 @@ export const SearchBox = ({ tasks }) => {
         setIsLoading(true)
 
         try {
-            const data = await fetch('http://34.223.223.77:4004/search',
+            const data = await fetch(searchURL,
                 {
                     method: 'POST',
                     headers: {
