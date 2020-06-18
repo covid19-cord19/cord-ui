@@ -4,7 +4,7 @@ import { Select } from './../select'
 import { Card } from './../card'
 import { Loader } from './../loader'
 
-import './search-box.scss'
+import styles from './search-box.module.scss'
 
 const getSubtasks = async (id) => {
     const response = await fetch(`/api/tasks/${id}`)
@@ -75,11 +75,17 @@ export const SearchBox = ({ tasks }) => {
 
     return (
         <>
-            <form method="POST" onSubmit={onSubmit} className="search-box">
+            <form method="POST" onSubmit={onSubmit} className={styles.container}>
                 <Select options={tasks} onChange={onChange} defaultOptionText="Select a task..." name="task"/>
                 <Select options={subtasks} defaultOptionText="Select a subtask..." name="subtask" />
-                <input type="search" name="search" placeholder="Insert an specific search (optional)" className="search-box__input" />
-                <input type="submit" value="Search" className="search-box__button"/>
+
+                <input
+                    type="search"
+                    name="search"
+                    placeholder="Insert an specific search (optional)"
+                    className={styles.input}
+                />
+                <input type="submit" value="Search" className={styles.button}/>
             </form>
             <section>
                 {isLoading ? <Loader /> : getCards(responses)}

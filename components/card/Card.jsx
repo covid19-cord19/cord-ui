@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import './card.scss'
+import styles from './card.module.scss'
 
 const getUrls = (url) => {
     const urls = url.split('; ')
@@ -18,13 +18,13 @@ const getUrls = (url) => {
 }
 
 export const Card = ({title, summary, score = 1, urls = ''}) => (
-    <div className="card">
-        <article className="card__summary">
+    <div className={`card ${styles.card}`}>
+        <article className={`card__summary ${styles.summary}`}>
             <h2 className="card__title">{title}</h2>
             <p>{summary}</p>
             {getUrls(urls)}
         </article>
-        <div className="card__score">
+        <div className={`card__score ${styles.score}`}>
             <span>Accuracy: </span> <span>{Math.round(score.toFixed(2) * 100)}%</span>
         </div>
     </div>

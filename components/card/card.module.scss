@@ -1,0 +1,18 @@
+.card {
+    border-radius: 8px;
+    display: flex;
+    margin: 1.5rem auto;
+
+}
+
+.summary {
+    padding: 0 40px 10px 20px;
+    text-align: justify;
+}
+
+.score {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}

@@ -8,14 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
-    "next": "^9.3.4",
-    "node-sass": "^4.14.1",
+    "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.0",
-    "jest": "^26.0.1"
-  }
+    "jest": "^26.0.1",
+    "sass": "^1.26.8"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
 }
