@@ -6,9 +6,9 @@ const getUrls = (url) => {
 
     if (urls.length > 0) {
         return (
-            <ul>
+            <ul className={`card__links ${styles.links}`}>
             {urls.map(url =>
-                <li key={url}><a href={url}>{url}</a></li>
+                <li key={url}><a className={`card__link ${styles.link}`} href={url}>{url}</a></li>
             )}
             </ul>
         )
@@ -25,7 +25,7 @@ export const Card = ({title, summary, score = 1, urls = ''}) => (
             {getUrls(urls)}
         </article>
         <div className={`card__score ${styles.score}`}>
-            <span>Accuracy:</span>&nbsp;<span> {Math.round(score.toFixed(2) * 100)}%</span>
+            {Math.round(score.toFixed(2) * 100)}% Accuracy
         </div>
     </div>
 )
