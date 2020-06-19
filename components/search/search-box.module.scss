@@ -1,0 +1,54 @@
+@import "./variables.scss";
+
+.container {
+    display: flex;
+    flex: 1 1 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1024px;
+
+}
+
+.input {
+    appearance: none;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    font-size: 1rem;
+    height: $input-height;
+    padding: 4px;
+    width: 100%;
+
+    @include medium-screen {
+        width: 80%;
+    }
+}
+
+.button {
+    appearance: none;
+    background-color: #0984e3;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    height: $input-height;
+    margin-top: 1.5rem;
+    transition: $animation-duration;
+    width: 100%;
+
+    @include medium-screen {
+        background-color: #fff;
+        color: #000;
+        margin-left: auto;
+        margin-top: 0;
+        width: 18%;
+
+        &:hover {
+            background-color: #0984e3;
+            border-color: #0768b3;
+            color: #fff;
+            transition: $animation-duration;
+        }
+    }
+
+}

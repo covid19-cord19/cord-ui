@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
 
 import { Select } from './../select'
-import { Card } from './../card'
+import { CardsList } from './../card'
 import { Loader } from './../loader'
+import { searchURL } from './../../config'
 
-import './search-box.scss'
+import styles from './search-box.module.scss'
 
 const getSubtasks = async (id) => {
     const response = await fetch(`/api/tasks/${id}`)
@@ -42,7 +43,7 @@ export const SearchBox = ({ tasks }) => {
         setIsLoading(true)
 
         try {
-            const data = await fetch('http://34.223.223.77:4004/search',
+            const data = await fetch(searchURL,
                 {
                     method: 'POST',
                     headers: {
@@ -61,28 +62,22 @@ export const SearchBox = ({ tasks }) => {
         }
     }
 
-    const getCards = (data = []) =>
-        data.map(item =>
-            <Card
-                key={item.id}
-                title={item.title[0]}
-                summary={item.body}
-                urls={item.url[0]}
-                score={item.score}
-            />
-        )
-
-
     return (
         <>
-            <form method="POST" onSubmit={onSubmit} className="search-box">
+            <form method="POST" onSubmit={onSubmit} className={styles.container}>
                 <Select options={tasks} onChange={onChange} defaultOptionText="Select a task..." name="task"/>
                 <Select options={subtasks} defaultOptionText="Select a subtask..." name="subtask" />
-                <input type="search" name="search" placeholder="Insert an specific search (optional)" className="search-box__input" />
-                <input type="submit" value="Search" className="search-box__button"/>
+
+                <input
+                    type="search"
+                    name="search"
+                    placeholder="Insert an specific search (optional)"
+                    className={styles.input}
+                />
+                <input type="submit" value="Search" className={styles.button}/>
             </form>
             <section>
-                {isLoading ? <Loader /> : getCards(responses)}
+                {isLoading ? <Loader /> : <CardsList cards={responses} />}
             </section>
         </>
     )
